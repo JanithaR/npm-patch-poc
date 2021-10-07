@@ -1,0 +1,13 @@
+diff --git a/node_modules/@haskkor/react-native-pincode/src/ApplicationLocked.tsx b/node_modules/@haskkor/react-native-pincode/src/ApplicationLocked.tsx
+index a2179ff..2e3271c 100644
+--- a/node_modules/@haskkor/react-native-pincode/src/ApplicationLocked.tsx
++++ b/node_modules/@haskkor/react-native-pincode/src/ApplicationLocked.tsx
+@@ -191,7 +191,7 @@ class ApplicationLocked extends React.PureComponent<IProps, IState> {
+           }}
+           enter={{
+             opacity: [1],
+-            timing: { delay: 1000, duration: 1500, ease: easeLinear }
++            timing: { delay: 0, duration: 0, ease: easeLinear }
+           }}>
+           {(state: any) => (
+             <View
