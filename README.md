@@ -18,7 +18,7 @@ The solution is to use **npm-patch**
 
 This example specifically shows how I altered something that I did not like when using [react-native-pincode](https://github.com/jarden-digital/react-native-pincode).
 
-When the number of pincode entries were exhausted a blocked screen appears... rather... painfully... slow. And this is something that was hardcoded in the source. So, how do you alter this?
+When the number of pincode entries were exhausted a blocked screen appears... rather... painfully... slow. And this is something that was hardcoded in the source. So, how did I alter this?
 
 1.  I found the source file responsible for this painfully slow transition.
 
