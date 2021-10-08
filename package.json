@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "postinstall": "patch-package && npm run build-react-native-pincode",
-    "create-patch-react-native-pincode": "patch-package @haskkor/react-native-pincode",
+    "patch-react-native-pincode": "patch-package @haskkor/react-native-pincode",
     "build-react-native-pincode": "cd node_modules/@haskkor/react-native-pincode && npm run build"
   },
   "dependencies": {
