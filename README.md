@@ -43,4 +43,5 @@ When the number of pincode entries were exhausted a blocked screen appears... ra
 Thankfully, the heavy lifting is already done and all that needs to be done is run 2 scripts I have put in the **package.json** file after doing the required changes to **@haskkor/react-native-pincode**.
 
 > patch-react-native-pincode
+
 > build-react-native-pincode
